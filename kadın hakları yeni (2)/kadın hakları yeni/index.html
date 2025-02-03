@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadın Hakları</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sixtyfour&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+ <!--navbar--> 
+ <header>
+    <nav class="navbar">
+        <h1 class="logo"> KADIN HAKLARI </h1>
+        <div class="search"><input type="text" id="searchInput" placeholder="Bölüm arayın...">
+          <button onclick="searchSection()">Ara</button>
+          <p id="searchResult" class="hidden">Bölüm bulunamadı.</p>
+        </div>
+        <ul>
+            <li><a href="tel:183" class="sosyal-destek">183</a></li>
+            <li><a href="##haberler">haberler</a></li> 
+            <li><a href="contact.html" onclick=""> bize ulaşın</a></li>
+            <li><button class="mini-oyun-button" onclick="openQuizModal()">Mini Oyun</button></li>
+        </ul>
+    </nav>
+</header>
+<!--navbar sonu-->
+ <!--resimli manşet başlğı-->
+<div class="manşet">
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-international-women-s-day-horizontal-banner_23-2149251871.jpg?t=st=1738528773~exp=1738532373~hmac=746c1dee01b7d53b66cdb6ae9b45a4e95858d150aef1bb5d96e52ec98cce1a2c&w=996" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Güçlü Kadınlar, Güçlü Toplumlar</h5>
+          <p>Kadınların gücü, dünyayı değiştirecek potansiyele sahiptir.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-international-women-s-day-sale-horizontal-banner_23-2149251873.jpg?t=st=1738528863~exp=1738532463~hmac=565af85923562edfbcae6110c836fdc8d5bf51eff7c25ef43afe161e22d3713a&w=996" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Eşitlik Herkes İçin</h5>
+          <p>Cinsiyet eşitliği, insan haklarının temel bir parçasıdır.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-international-women-s-day-social-media-promo-template_23-2149251865.jpg?t=st=1738529061~exp=1738532661~hmac=2c5cd4faf9daabf18ad740a53b614781ef748dbdf70b096bf0d4564472cacc8c&w=996" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sessiz Kalma, Haklarını Savun</h5>
+          <p>Kadınların sesi, adaletin yankısıdır.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+  <!--resimli manşet başlğı sonu-->
+  <div class="information">
+    <div class="grid-container0"> 
+        <div class="card-body0">
+          <hr>
+          <h1 class="kadınhakları">
+            kadın haklarının tarihi süreci
+          </h1>  
+          <section id="tarihi"><p class="tarihisürec">
+            Kadın haklarının tarihi, uzun ve zorlu bir mücadele sürecini içerir. Antik dönemlerden günümüze kadar uzanan bu süreçte, kadınlar sosyal, ekonomik ve politik alanda eşit haklara sahip olma mücadelesi vermişlerdir.
+            
+            Antik Mısır ve Yunan medeniyetlerinde kadınlar, bazı özel haklara sahip olsalar da genellikle erkeklerin üstünlüğü altındaydılar. Orta Çağ döneminde ise İslam, kadınlar için bazı haklar tanıdı. Ancak, zamanla bu haklar sınırlanmaya başladı ve kadınlar toplumsal alanda geri plana itildi.
+            
+            yüzyıla gelindiğinde, kadın hakları hareketi ortaya çıktı ve bu hareket, kadınların seçme ve seçilme hakkı, eğitim hakkı ve çalışma hakkı gibi konularda önemli adımlar attı. Bu dönemde kadınlar, toplumsal eşitlik ve özgürlük için seslerini duyurmaya başladılar.
+            
+            yüzyıl, kadın hakları konusunda büyük ilerlemelerin kaydedildiği bir dönem oldu. Özellikle Cumhuriyet dönemi Türkiye'sinde, kadın hakları konusunda önemli yasal düzenlemeler yapıldı. Kadınların seçme ve seçilme hakkı, eğitim hakkı ve çalışma hakkı gibi temel hakları tanındı.
+            
+            Günümüzde ise kadın hakları konusunda uluslararası düzeyde çalışmalar devam etmektedir. Kadınların siyasi, sosyal ve ekonomik haklarının güçlendirilmesi hedeflenmektedir. Bu kapsamda, kadınların eşitlik ve adalet talepleri dünya genelinde daha fazla yankı bulmaktadır.
+            
+            Kadın hakları tarihi, kadınların uzun yıllar süren mücadeleleri ve elde ettikleri başarılarla doludur. Bu süreçte, kadınlar toplumsal eşitlik ve özgürlük için büyük adımlar atmış ve atmaya devam etmektedirler.</p>
+       </section>
+       
+        </div>
+        <hr>
+      </div></div> 
+  <!--içerik--> 
+   <h1 class="başlıksıralama">geçmişten bugüne kadınların kazandıkları haklar</h1>
+  <div class="grid-container">
+<div class="card text-bg-primary mb-3" style="max-width: 35rem;">
+    <div class="card-header"><p>1. Siyasal Haklar</p></div>
+    <div class="card-body">
+      <p class="card-text">•	Seçme ve Seçilme Hakkı: Kadınların oy kullanma ve seçilme hakkı elde etmesi.
+        •	Siyasi Temsil ve Katılım: Kadınların siyasi partilerde ve karar alma mekanizmalarında yer alması.
+        </p>
+    </div>
+  </div>
+  <div class="card text-bg-info mb-3" style="max-width: 35rem;">
+    <div class="card-header"><p>2. Eğitim Hakları</p></div>
+    <div class="card-body">
+      <p class="card-text">•	Eğitim Erişimi: Kız çocuklarının temel eğitim, ortaöğretim ve yükseköğretime erişim hakkı.
+        •	Mesleki Eğitim: Kadınların mesleki ve teknik eğitim olanaklarından yararlanma hakkı.
+        </p>
+    </div>
+  </div>
+<div class="card text-bg-info mb-3" style="max-width: 35rem;">
+  <div class="card-header"><p>3. Çalışma Hakları</p></div>
+  <div class="card-body">
+  <p class="card-text">•	Eşit İş ve Eşit Ücret: Kadınların eşit işe eşit ücret alma hakkı.
+    •	Çalışma Koşulları: Kadınların güvenli ve sağlıklı çalışma koşullarına sahip olma hakkı.
+    •	Annelik İzni: Kadınların doğum ve annelik izni hakları.
+    </p>
+  </div>
+</div>
+<div class="card text-bg-info mb-3" style="max-width: 35rem;">
+  <div class="card-header"><p>4. Sosyal Haklar</p></div>
+  <div class="card-body">
+  <p class="card-text">•	Aile ve Evlilik Hakları: Kadınların evlilikte eşit haklara sahip olması, boşanma ve velayet hakları.
+    •	Şiddetten Korunma: Kadınların aile içi şiddet ve cinsel şiddetten korunma hakkı.
+    •	Sağlık Hizmetlerine Erişim: Kadınların cinsel ve üreme sağlığı hizmetlerine erişim hakkı.
+    </p>
+  </div>
+</div>
+<div class="card text-bg-info mb-3" style="max-width: 35rem;">
+  <div class="card-header"><p>5. Ekonomik Haklar</p></div>
+  <div class="card-body">
+  <p class="card-text">•	Mülkiyet ve Miras Hakları: Kadınların mülk edinme ve mirastan eşit pay alma hakkı.
+    •	Mikrokredi ve Finansman: Kadınların ekonomik bağımsızlıklarını desteklemek için finansal kaynaklara erişim hakkı.
+    </p>
+  </div>
+</div>
+<div class="card text-bg-info mb-3" style="max-width: 35rem;">
+  <div class="card-header"><p>6. Hukuki Haklar</p></div>
+  <div class="card-body">
+  <p class="card-text">•	Adalete Erişim: Kadınların yasal haklarını korumak için adalete erişim hakkı.
+    •	Yasal Koruma: Kadınların ayrımcılığa karşı yasal koruma hakkı.
+    </p>
+  </div>
+</div>
+<div class="card text-bg-info mb-3" style="max-width: 35rem;">
+  <div class="card-header"><p>7. Kültürel ve Toplumsal Haklar</p></div>
+  <div class="card-body">
+  <p class="card-text">•	Kültürel Katılım: Kadınların kültürel etkinliklere katılım hakkı.
+    •	Toplumsal Statü ve Saygı: Kadınların toplumda eşit statü ve saygı görme hakkı.
+    </p>
+  </div>
+</div>
+  </div>
+  <!--içerik sonu-->
+ 
+  <div>
+    <h1 style="text-align: center; " >hak ediyoruz !</h1>
+    <div class="grid-container2">
+      <div class="nasıl"><p style="font-size: x-large; text-align: center; padding-top: 10px;">"Eşit iş, eşit ücret hak ediyoruz."</p>
+        <img src="https://img.freepik.com/free-vector/flat-women-s-history-month-illustration_23-2149299190.jpg?t=st=1738495717~exp=1738499317~hmac=968ad6012207b6990dd2e41543bfceb5c36db51c111b91b731ad8f8fe9dd0a35&w=826 " 
+        class="hakimage"  alt="" ><p>
+          Kadınlar ve erkekler aynı işi yaptıklarında eşit ücret almalıdır. Ancak birçok yerde kadınlar, erkek meslektaşlarından daha az kazanmaktadır. 
+          Bu durum, kadınların ekonomik bağımsızlığını engeller ve toplumsal cinsiyet eşitliğini zedeler.</p></div>
+          <div class="nasıl"><p style="font-size: x-large; text-align: center; padding-top: 10px;">"Eğitim her kadının hakkıdır, hak ediyoruz."</p>
+            <img src="https://img.freepik.com/free-vector/flat-women-s-history-month-illustration_23-2149299190.jpg?t=st=1738495717~exp=1738499317~hmac=968ad6012207b6990dd2e41543bfceb5c36db51c111b91b731ad8f8fe9dd0a35&w=826 " 
+            class="hakimage"  alt="" ><p>
+              Eğitim, kadınların kendilerini geliştirmeleri, topluma katkıda bulunmaları ve bağımsızlıklarını kazanmaları için hayati önem taşır. 
+              Eğitim hakkı, tüm kız çocuklarına ve kadınlara sağlanmalıdır.</p></div>
+              <div class="nasıl"><p style="font-size: x-large; text-align: center; padding-top: 10px;">"Şiddete son, güvende olmayı hak ediyoruz."</p>
+                <img src="https://img.freepik.com/free-vector/flat-women-s-history-month-illustration_23-2149299190.jpg?t=st=1738495717~exp=1738499317~hmac=968ad6012207b6990dd2e41543bfceb5c36db51c111b91b731ad8f8fe9dd0a35&w=826 " 
+                class="hakimage"  alt="" ><p>
+                  Kadına yönelik şiddet, dünya genelinde ciddi bir sorundur. Her kadının güvenli bir ortamda yaşama hakkı vardır. 
+                  Şiddetin her türlüsüne karşı mücadele edilmelidir.</p></div>
+                  <div class="nasıl"><p style="font-size: x-large; text-align: center; padding-top: 10px;">"Siyasal temsil ve karar mekanizmalarında yer hak ediyoruz."</p>
+                    <img src="https://img.freepik.com/free-vector/flat-women-s-history-month-illustration_23-2149299190.jpg?t=st=1738495717~exp=1738499317~hmac=968ad6012207b6990dd2e41543bfceb5c36db51c111b91b731ad8f8fe9dd0a35&w=826 " 
+                    class="hakimage"  alt="" ><p>
+                      Kadınların siyasette ve karar alma mekanizmalarında temsil edilmeleri, toplumsal cinsiyet eşitliğinin sağlanması için kritik öneme sahiptir.
+                       Kadınlar, kendi haklarını ve ihtiyaçlarını savunabilmelidir.</p></div>
+                       <div class="nasıl"><p style="font-size: x-large; text-align: center; padding-top: 10px;">"Çalışma hayatında eşit fırsatlar hak ediyoruz."</p>
+                        <img src="https://img.freepik.com/free-vector/flat-women-s-history-month-illustration_23-2149299190.jpg?t=st=1738495717~exp=1738499317~hmac=968ad6012207b6990dd2e41543bfceb5c36db51c111b91b731ad8f8fe9dd0a35&w=826 " 
+                        class="hakimage"  alt="" ><p>
+                          İş dünyasında kadınların eşit fırsatlara erişimi sağlanmalıdır. Bu, işe alım süreçlerinden terfi ve liderlik pozisyonlarına kadar her alanda geçerlidir. 
+                          Kadınlar, yetenekleri ve çalışmalarına göre değerlendirilmeli ve desteklenmelidir.</p></div>
+
+    
+  </div>
+  <!-- kartlar-->
+  <section id="#oyun"><div class="card">
+    <img src="https://www.kadindayanismasi.net/wp-content/uploads/2021/02/2020-04-Korona-gunlerinde-de-kadinlar-birlikte-guclu-1.jpg"
+    
+  </div>
+  </section>
+  <!--kart sonu--> 
+  <!--haber bölgesi-->
+<hr class="dashed">
+  <section id="#haberler"><h1  class="haberbaslıgı">kadın hakları ile ilgili bazı bilgi kaynakları</h1></section>
+  <hr class="dashed">
+  <div class="grid-container1"> 
+    <div class="grid-item">  <div class="car">
+      <img src="https://img.freepik.com/premium-vector/womens-equality-day-banner-design-creative-illustration_1264005-1586.jpg?w=360" class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">YASAL HAKLAR VE DÜZENLEMELER</h5>
+        <p class="card-text">Aşağıdaki butona tıklayarak kadınların yasal hakları ve düzenlemeleri hakkında güncel bilgilere ulaşabilirsiniz.</p>
+        <a href="https://kadindogasi.net/kadinlarin-yasal-haklari-ve-duzenlemeler/" target="_blank"class="btn btn-primary">KADIN DOĞASI </a>
+      </div>
+    </div></div> 
+    <div class="grid-item"> <div class="car">
+      <img src="https://img.freepik.com/premium-vector/womens-equality-day-banner-design-creative-illustration_1264005-1586.jpg?w=360" class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">İLGİLİ SİTELER</h5>
+        <p class="card-text">Aşağıdaki butonlara basarak kadın hakları ile ilgili bilgi sunan global sitelere ulaşabilirsiniz.</p>
+        <a href="https://www.unwomen.org/en?form=MG0AV3" target="_blank" class="btn btn-primary">UN WOMEN</a>
+        
+        <a href="https://www.globalfundforwomen.org/?form=MG0AV3" target="_blank" class="btn btn-primary">GLOBAL FUND FOR WOMEN</a>
+      </div>
+    </div></div> 
+    <div class="grid-item"> <div class="car">
+      <img src="https://img.freepik.com/premium-vector/womens-equality-day-banner-design-creative-illustration_1264005-1586.jpg?w=360" class="card-img-top" alt="...">
+    
+      <div class="card-body">
+        <h5 class="card-title">İLGİLİ YARDIM KURULUŞLARI</h5>
+        <p class="card-text">aşağıdaki butonlara basarak ilgili yardım kuruluşlarına ulaşabilirsiniz.</p>
+        <a href="https://kadem.org.tr/kadem-turkiye-genelinde-ihtiyac-sahibi-kadin-ve-ailelere-devlet-tarafindan-sunulan-sosyal-destekleri-ve-erisim-yontemlerini-anlatiyor/" target="_blank"class="btn btn-primary">kadem</a>
+        <a href="https://kadinininsanhaklari.org/destek-almak-icin-basvurulabilecek-kurumlar/" target="_blank"class="btn btn-primary">kadının insan hakları</a>
+      </div>
+    </div></div> 
+  </div>
+  <hr>
+<!--haber sonu --> 
+<!--erişim --> 
+<section id="#iletişim" ><footer>
+   <div class="container"> 
+    <p>&copy; BU SİTE Hİ-KOD ÖĞRENCİLERİ TARAFINDEN YAPILMIŞTIR.</p>
+    <div class="social-meedia"> 
+      <i class="bi bi-facebook"></i><a href="#" >Facebook</a>
+      <i class="bi bi-twitter-x"></i><a href="#">Twitter</a>
+      <i class="bi bi-instagram"></i><a href="#">Instagram</a> 
+    </div> 
+ </div> 
+</footer></section>
+<button class="üste" >
+<a href="#"><i class="bi bi-arrow-up-circle-fill"></i></a>
+</button>
+<script src="java.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!--değişiklik yapıldi-->
+<script>
+  document.querySelector('a[href="#top"]').addEventListener('click', function (e) {
+      e.preventDefault(); 
+      window.scrollTo({ top: 0, behavior: 'smooth' }); 
+  });
+</script>
+<!-- Oyun Modalı -->
+<div id="quizModal" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeQuizModal()">&times;</span>
+      <h2>Kadın Hakları Bilgi Yarışması</h2>
+      <div id="quizContainer">
+          <p id="question"></p>
+          <div id="options"></div>
+          <p id="result"></p>
+          <button id="nextButton" onclick="nextQuestion()" style="display: none;">Sonraki Soru</button>
+      </div>
+  </div>
+</div>
+<!--değişiklik sonu-->
+</body>
+</html>

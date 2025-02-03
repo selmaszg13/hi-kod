@@ -1,0 +1,325 @@
+
+  
+body , html{
+    margin: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: "Bebas Neue", serif;
+    font-size: x-large;
+    background-color: rgb(254, 236, 222);
+}
+header{
+    background-color: rgb(205, 162, 221);
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid;
+    padding: 15px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: rgb(0, 0, 0);
+    border-color: rgb(165, 114, 193);
+    z-index: 1000;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+.carousel-control-prev:hover{
+background-color: rgb(244, 148, 123);
+}
+.carousel-control-next:hover{
+background-color: rgb(244, 148, 123);
+}
+nav a , button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 114, 193);
+    padding: 10px;
+    border: none;
+
+}
+
+
+.board {
+   display: flex;
+   padding-top: 50px;
+   gap: 20px;
+   justify-content: center;
+ 
+}
+.manşet{
+    padding-top: 130px;
+}
+.card-body{
+    background-color: rgb(165, 114, 193);
+    color: white;
+    border-color: black;
+}
+.card-body:hover{
+    background-color: rgb(165, 114, 193);
+}
+.card-header{
+background-color: rgb(165, 114, 193);
+color: white;
+border-color: black;
+}
+nav a:hover{
+ color: rgb(244, 148, 123);
+ border-radius: 20px;
+ transition: 0.5s;
+}
+nav a:active{
+    color: crimson;
+}
+
+.container{
+    background-color: rgb(165, 114, 193); 
+    box-sizing: border-box; 
+    text-align: center;
+    padding: 20px 20px;
+    grid-template-columns: repeat(3fr, 1fr);
+    display: grid;
+    color: #fff;
+}
+.social-meedia a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.social-meedia i{
+  background-color: rgb(165, 114, 193);  
+  color: white;
+  padding: 10px 10px;
+  font-size: x-large;
+  border-radius: 10px;
+}
+.social-meedia a:hover{
+    color: rgb(243, 119, 73);
+}
+.carousel-inner h5{
+color: black;
+background-color: #ffafaf;
+}
+.card a:hover{
+background-color:rgb(243, 119, 73) ;
+border-color: rgb(243, 119, 73);
+}
+.card a{
+    background-color: rgb(75, 75, 75);
+    border-color: rgb(75, 75, 75);
+    grid-template-columns: 50%;
+}
+.grid-container { display: grid;  
+    grid-template-columns: repeat(4, 1fr);  gap: 10px; 
+    padding: 20px; 
+    
+} 
+.grid-item { 
+        background-color: #f1f1f1; 
+        border: 1px solid #ddd; 
+        padding: 20px; 
+        text-align: center; 
+    }
+hr{
+    border: 3px solid rgb(243, 119, 73);
+}
+.üste a{
+padding-right: 0%;
+  z-index: 1000;
+  color: #f1f1f1;
+  text-decoration: none;
+  text-align: center;
+}
+.üste{
+     position: fixed; 
+     bottom: 10px; 
+     right: 10px; 
+     background-color: rgb(165, 114, 193); 
+     color: white; border: none; 
+     padding: 50px 30px; 
+     border-radius: 50px;
+     cursor: pointer; 
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+     transition: background-color 0.3s; 
+     z-index: 1000; 
+}
+.üste i { 
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: bottom 0.5s ease; 
+}
+.üste i:hover{
+ bottom: 40px;
+}
+.tarihisürec{
+    padding: 1cm;
+}
+
+.information h1{
+    color: rgb(43, 97, 81);
+    text-align: center; 
+}
+.card-body a{
+    margin: 0.3cm;
+    background-color: rgb(244, 148, 123);
+    border-color: rgb(244, 148, 123);}
+.card-body a:hover{
+    background-color: rgb(243, 119, 73);
+    border-color: rgb(243, 119, 73);
+}
+    
+.card-text{
+    padding: 0.2cm;
+}
+.grid-container0{
+    background-color: rgb(244, 148, 123);
+    text-align: center;
+    background-color: #fff; /* Ana arka plan rengi */
+    background-image: linear-gradient(45deg, rgb(205, 162, 221) 25%, transparent 25%, transparent 75%, rgb(205, 162, 221) 75%, rgb(205, 162, 221)),
+                      linear-gradient(45deg, rgb(205, 162, 221) 25%, transparent 25%, transparent 75%, rgb(205, 162, 221) 75%, rgb(205, 162, 221));
+    background-size: 100px 100px; /* Desen boyutu */
+    background-position: 0 0, 50px 50px; 
+
+}
+.başlıksıralama {
+    text-align: center ;
+}
+.card-body:hover{
+    background-color: rgb(165, 114, 193);
+}
+.board{
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);  
+   
+}
+.haberbaslıgı{
+    text-align: center;
+   
+}
+.card-header p{
+background-color: rgb(243, 119, 73);
+font-size: x-large;
+align-items: center;
+padding: 5px;
+color: black;
+}
+.grid-container1{
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 10px; 
+    padding: 20px; 
+}
+.hidden {
+    display:none }
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nasıl{
+    background-color: rgb(205, 162, 221);
+    width: 90%;
+    margin: 10px;
+}
+.search button{
+   border: rgb(244, 148, 123) solid;
+   background-color: rgb(244, 148, 123);
+   border-radius: 20px;
+   padding: 5px 20px;
+}
+.search input{
+    border: rgb(165, 114, 193) solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+}
+ .hakimage{
+    width: 400px;
+    align-items: center; 
+    border: 10px solid rgb(205, 162, 221); 
+    display: flex;
+ }
+ .dashed{
+    border: 0;
+    border-top: 20px dashed rgb(165, 114, 193); 
+    margin: 20px 0; }
+    .highlight {
+        background-color: rgb(244, 148, 123); 
+        transition: background-color 1s ease;}
+     /* değişiklik soni */
+
+ /* Bize Ulaşın Bölümü Stili */
+        #bize-ulasin {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        #bize-ulasin h2 {
+            color: #8B008B;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+        }
+        
+        button[type="submit"] {
+            background-color: #8B008B;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #FF1493;
+        }
+        
+        #formResult {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        /* değişiklik soni */
+        .formResult{
+            background-color:rgb(165, 114, 193) ;
+        }
+        .quizContainer{
+            background-color:rgb(244, 148, 123) ;
+        }
+    
+   
